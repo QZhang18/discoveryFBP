@@ -35,13 +35,13 @@ argv[6] = the number of results one want to examine
 
        *	     Between 10 and 70
        
-1. Run discoveryFBP
+Run discoveryFBP
 
 The file discoveryFBP should be run as follow:
 
        *       ./discoveryFBP DataFile -f burstiness pattern_size time_segment k
 
-For example: 
+Example: 
 
        *       ./discoveryFBP data -f 0.4 4 6 70
 
@@ -49,7 +49,7 @@ where 70 is the number of FBPs one wants to examine
 
 It can only output the running time
 
-2. Result Enumeration
+Result Enumeration
 
        *       ./discoveryFBP DataFile -fo burstiness pattern_size time_segment k
 
